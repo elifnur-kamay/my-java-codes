@@ -1,0 +1,10 @@
+ import java.util.Scanner;
+ public class Main{
+ public static void main (String[]args){
+ Scanner k= new Scanner(System.in);
+ int f*i;
+ int x=k.nextInt();
+ for(int i=1;i<=x;i++){
+ f=f*i;
+ }
+ System.out.println("factorial is = "+f);
