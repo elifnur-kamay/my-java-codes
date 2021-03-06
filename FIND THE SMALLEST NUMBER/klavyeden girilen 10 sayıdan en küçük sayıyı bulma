@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main{
+public class main (String[]args){
+Scanner k=new Scanner(System.in);
+int enk=k.nextInt;
+int x;
+for (int i=2; i<=10; i++){
+x=k.nextInt();
+if(enk>x){
+enk=x;
+}
+}
+System.out.println("klavyeden girilen sayılardan en küçüğü = " +enk);
+}
