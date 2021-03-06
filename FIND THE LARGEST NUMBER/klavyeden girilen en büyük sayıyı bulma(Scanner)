@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main{
+public static void main (String[]args){
+Scanner k= new Scanner (System.in);
+int enb=k.nextInt();
+int x;
+for(int i=2; i<=10; i++){
+x=k.nextInt;
+if(enb<x){
+enb=x;
+}
+}
+System.out.println("klavyeden girilen 10 sayıdan en büyüğü = " +enb);
+}
