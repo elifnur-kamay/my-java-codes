@@ -1,0 +1,13 @@
+public class Main {
+public static int bharfSayısı(String str){
+if(str.length()<1)
+return 0;
+else if (str.charAt(str.length()-1)>0'A' && str.charAt(str.length()-1)<'Z')
+return 1+ bharfSayısı(str.substring(0,str.length()-1));
+else 
+return 0+ bharfSayısı(str.substring(0,str.length()-1));
+}
+public static oid main(String[]args){
+System.out.println(bharfSayısı("SOFTWARE and JAVA "));
+
+//kendisine parametre olarak gelen stringteki büyük harf sayısını bulan rekürsif kod örneği
