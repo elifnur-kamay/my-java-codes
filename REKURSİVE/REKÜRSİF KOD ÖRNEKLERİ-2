@@ -1,0 +1,13 @@
+public class Main{
+public static int rakamTopla( int sayı){
+if(sayı%10==0) 
+return sayı;
+else
+return sayı%10+rakamTopla(sayı/10);
+}
+
+public static void main (String[]args){
+System.out.println(rakamTopla(034));
+}
+}
+// kendisine parametre olarak gelen sayının rakamları toplamını rekursif olarak bulan program örneği
