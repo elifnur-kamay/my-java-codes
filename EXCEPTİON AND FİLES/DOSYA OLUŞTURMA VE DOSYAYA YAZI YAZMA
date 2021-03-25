@@ -1,0 +1,18 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import.io.IOException;
+import.io.PrintWriter;
+
+public class Main {
+ public static void main (String[]args) throws IOException {
+ File dosya = new File("dosya.txt");
+ dosya.createNewFile();
+ 
+ PrintWriter pw= new PrintWriter(dosya);
+ pw.println("elif");
+ pw.close();
+ }
+ }
+ 
+ //dosya oluşturma ve dosyaya istediğimizi yazan kod örneği
+ 
