@@ -1,0 +1,14 @@
+import java.io.File;
+import java.io.IOExecption;
+public class Main{
+public static void main (String[]args)throws IOException{
+File dosya= new File("c:\\javademos");
+if(dosya.exists && dosya.isDirectory){
+String dosyalar[]=dosya.list();
+for(int i=0; i<dosyalar.length; i++){
+System.out.println(dosyalar[i]);
+}
+}
+}}
+
+// blgisayardaki bir klasördeki dosyaların adını sıralayan program örneği
