@@ -1,0 +1,14 @@
+import java.io.File;
+import java.io.IOException;
+import java.util.Scanner;
+ 
+ public class Main{
+ public static void main (String []args) throws IOException {
+ 
+ File dosya = new File("dosya.txt");
+ Scanner klavye =new Scanner (System.in);
+ System.out.println(k.nextLine());
+ }
+ }
+ 
+ // daha önce oluşturulmuş dosyadaki verileri Scanner sınıfıyla okuyan kod örneği
