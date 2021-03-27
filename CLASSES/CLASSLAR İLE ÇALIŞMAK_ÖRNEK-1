@@ -1,0 +1,24 @@
+package uygulama;
+class cember{
+double r;
+public cember(){
+r=1;
+}
+cember(double nr){
+r=nr;
+}
+double alanHesapla(){
+return Math.PI*r*r; }
+double cevreHesapla(){
+return 2*Math.PI*r; }
+}
+ public class Main {
+ public static void main ( Stirng[]args){
+ cember c=new cember(2.0);
+ System.out.println( "Yarıçap: " +c.r);
+ System.out.println(" Alan: "+c.alanHesapla);
+ System.out.println( Cevre: "+c.cevreHesapla);
+ }
+ }
+ 
+ // yarıcapı verilmiş bir cemberin alanını classlar ile çalışarak hesaplayan program 
