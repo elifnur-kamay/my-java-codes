@@ -1,0 +1,36 @@
+package uygulama;
+class dıkdortgen{
+double a,b;
+public dıkdortgen(){
+a=1;
+b=1;
+}
+dıkdortgen ( double k1, double k2){
+a=k1;
+b=k2;}
+double alanHesapla(){
+return a*b;
+}
+double cevreHesapla(){
+return 2*(a+b);
+}
+boolean karemidir(){
+if(a==b) return true;
+else return false;
+}
+}
+public class Main{
+
+public static void main(String[]args){
+
+dıkdortgen d= new dıkdortgen(5,8);
+
+System.out.printl("kenar 1: "+d.a);
+System.out.println("kenar 2: +d.b);
+System.out.println("alan: "+d.alanHesapla);
+System.out.println8"cevre: "+d.cevreHesapla);
+Sytem.out.println("kare midir? : "+d.karemidir);
+
+}
+}
+//classes ile kenarları bilinen dikdörtgenin kare olup olmadığını , alanını, cevresini bulan program
