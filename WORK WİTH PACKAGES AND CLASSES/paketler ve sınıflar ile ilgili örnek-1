@@ -1,0 +1,32 @@
+class uygulama{
+public boolean asalmı(int x){
+for( int i=2; i<(x/2)+1 ; i++ ){
+if(x%i==0 ) return false;
+}
+return true;}
+
+public int ekob( int a, int b){
+int maks;
+if( asalmı(a) || asalmı(b) ) return 1;
+maks a<b? a:b;
+for( int i=2; i<(maks/1)+1; i++)
+if( (a%i==0) && (b%i==0) ) return i;
+return 1;
+}
+public class Main{
+}
+public static void main (String [] args){
+uygulama u= new uygulama();                            // (javada nesne oluşturma formatı)
+int a,b;
+for(int i=2;i<10;i++){
+if(u.asalmı(i))
+System.out.println(i+" sayısı asaldır");
+else
+System.out.println(i+" sayısı asal değildir");
+}
+a=7  b=8                                               //( ekob'u bulunacak örnek sayılar)
+System.out.println(a+" ve "+ b +" sayılarının en küçük ortak bölenleri= "+u.ekob(a,b));
+}
+}
+
+// 1'den 10'a kadar olan sayıların asal olup olmadığını bulan ve girilen iki sayının ekob' unu bulan program örneği
