@@ -1,0 +1,16 @@
+package örnek;
+class Supersınıf{
+int değişken= 100;
+}
+class Altsınıf extends Supersınıf{
+int değişken = 110;
+void yaz(){
+System.out.println(değişken);
+System.out.println(super.değişken);
+} public static void main ( String args [] ){
+Altsınıf obj = new Altsınıf();
+obj.yaz;
+}
+}
+
+// super kelimesinin kullanımına dair basit örnek
