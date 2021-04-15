@@ -1,0 +1,18 @@
+package örnek;
+class ögretmen{
+String açıklama = "öğretmen";
+void neYapar(){
+System.out.println("öğretir");
+}
+}
+public class Matematik_öğretmeni extends öğretmen(){
+String konu= "matematik";
+public static void main(){
+Matematik_öğretmenni ogrt= new Matematik_öğretmeni;
+System.out.println(ogrt.açıklama);
+Sytem.out.println(ogrt.konu);
+ogrt.neYapar();
+}
+}
+
+//( matematik_öğretmeni sınıfı  öğretmen sınıfında kalıtım sağlamıştır.) kalıtım örneği
