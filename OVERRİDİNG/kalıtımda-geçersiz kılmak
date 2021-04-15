@@ -1,0 +1,17 @@
+package örnek;
+class hayvanlar{
+public void yemek(){
+System.out.println(" hayvanlar yemek yer ");
+}
+}
+class kuşlar{
+public void yemek(){
+System.out.println( "kuşlar yemek yer. ");
+}
+public static vod main ( String args [] ){
+kuşlar obj = new kuşlar();
+obj.yemek;
+}
+}
+
+// overriding yapılmıştır üstteki method gecersiz kılınmıştır
