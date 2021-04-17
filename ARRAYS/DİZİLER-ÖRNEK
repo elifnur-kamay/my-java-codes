@@ -1,0 +1,33 @@
+public class Main{
+public static void main( String[] args ){
+int tekCıft[] ={ 1000, 9, 8, 7, 35, 69, 76, 58, 9998, 100};
+cevap( tekCıft);
+}
+
+public static void cevap(int dızı[] ){
+int enBuyuk=0;
+int sayac=0;
+for( int i=0; i<dızı.length; i++ ){
+if( dızı[i]%2==0){
+enBuyuk=dızı[i];
+break;
+}
+}
+ for (int i=0; i<dızı.length ;i++ ){
+ if( dızı[i]%2==0 && dızı[i]>enBuyuk ){
+ enBuyuk= dızı[i];
+ break;
+ }
+ }
+ for(int i=0; i<dızı.length; i++){
+ if( enBuyuk==dızı[i]{
+ break;
+ }
+ sayayc++;
+ }System.out.println(" en buyuk çift sayı " +sayac+ ".indistedir.");
+ }
+ }
+ 
+ 
+ 
+ // girilen sayılardan en büyük çift sayının hangi indiste olduğunu bulan program
