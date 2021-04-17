@@ -1,0 +1,17 @@
+public class Main{
+public static void main( String [] args){
+Scanner k= new Scanner(System.in);
+int a;
+a=k.nextint();
+if(a>0){
+System.out.println( "girilen sayı pozitiftir");
+}
+else if (a<0){
+System.out.println("girilen sayı negatiftir); 
+}
+else
+System.out.println("sayı nötrdür");
+}
+}
+
+//klavyeden girilen sayının pozitiflik durumunu bulan program
