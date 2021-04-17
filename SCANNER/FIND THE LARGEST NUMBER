@@ -12,3 +12,4 @@ enb=x;
 }
 System.out.println("klavyeden girilen 10 sayıdan en büyüğü = " +enb);
 }
+// klavyeden girilen 10 sayıdan en küçüğünü bulan program
