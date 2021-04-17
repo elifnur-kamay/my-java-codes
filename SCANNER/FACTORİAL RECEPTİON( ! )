@@ -8,3 +8,6 @@
  f=f*i;
  }
  System.out.println("factorial is = "+f);
+ }
+ }
+ // klavyeden girilen sayının faktöriyelini alan program
