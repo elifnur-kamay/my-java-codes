@@ -12,4 +12,4 @@ enk=x;
 }
 System.out.println("klavyeden girilen sayılardan en küçüğü = " +enk);
 }
- // klavyeden girilen en küçük sayıyı bulan program
+ // klavyeden girilen 10 sayıdan  en küçük sayıyı bulan program
