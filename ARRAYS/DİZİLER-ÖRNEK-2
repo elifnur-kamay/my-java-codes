@@ -1,0 +1,24 @@
+public class Main{
+public static void main(String[]args){
+int eksılen[]={9, 9 ,7 ,5 ,4 ,9 ,1 ,7 ,5 ,4 ,9 ,1 ,7 ,5 ,4 ,9 ,1 ,7 ,5 ,4};
+int   cıkan[]={8 ,2 ,9 ,9 ,7 ,8 ,9 ,5 ,8 ,7 ,8 ,9 ,5 ,8 ,7 ,8 ,9 ,5 ,8 ,7};
+cevap(eksılen,cıkan);
+System.out.println();
+}
+static void cevap(int dızı1[],int dızı2[]){
+int fark[]= new int[20];
+for( int i=dızı1.lengthg-1; i>0; i--){
+if(dızı1[i]<dızı2[i]){
+dızı1[i]=dızı1[i]+10;
+dızı[i-1]--;
+}
+fark[i]=dızı1[i]-dızı2[i];
+}
+for(int i=0;i<dızı1.length;i++){
+System.out.print(fark[i]+" ");
+}
+}
+}
+
+
+//verilen iki diziyi birbirinden çıkaran program (20 basamaklı iki sayının farkı)
