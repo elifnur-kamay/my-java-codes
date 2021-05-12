@@ -1,0 +1,19 @@
+public class DısSınıf{
+int x=10;
+
+public class İcSınıf{
+public int getx(){
+return x;
+}
+}
+}
+
+
+-----------------------------------------------------------------------------------
+
+
+public class Main{
+public static void main ( String [] args ){
+DısSınıf.İcSınıf a= new DısSınıf().new İcSınıf();
+System.out.println(a.getx);
+}}
